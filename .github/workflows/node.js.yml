@@ -23,5 +23,5 @@ jobs:
     - name: install newman
       run: npm install -g newman
     - name: run test
-      run: npm run Projects.postman_collection.json
+      run: newman run Projects.postman_collection.json
 
